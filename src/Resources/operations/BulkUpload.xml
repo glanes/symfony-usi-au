@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usi:BulkUpload xmlns:usi="http://usi.gov.au/2022/ws" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<usi:OrgCode/>
+	<usi:RequestId/>
+	<usi:NoOfApplications>10</usi:NoOfApplications>
+	<usi:Applications>
+		<usi:Application>
+			<usi:ApplicationId>1</usi:ApplicationId>
+			<usi:DVSCheckRequired>true</usi:DVSCheckRequired>
+			<usi:UserReference/>
+			<usi:ContactDetails>
+				<usi:CountryOfResidenceCode>1101</usi:CountryOfResidenceCode>
+				<usi:EmailAddress>freddy+87504999@tes.com</usi:EmailAddress>
+				<usi:Phone>
+					<usi:Home>0255555555</usi:Home>
+					<usi:Mobile>0412341234</usi:Mobile>
+				</usi:Phone>
+				<usi:NationalAddress>
+					<usi:Address1>1134 Perbil St</usi:Address1>
+					<usi:SuburbTownCity>LORNE</usi:SuburbTownCity>
+					<usi:State>NSW</usi:State>
+					<usi:PostCode>2439</usi:PostCode>
+				</usi:NationalAddress>
+			</usi:ContactDetails>
+			<usi:PersonalDetails>
+				<usi:Gender>M</usi:Gender>
+				<usi:FirstName>Baldvin</usi:FirstName>
+				<usi:MiddleName>Kick</usi:MiddleName>
+				<usi:FamilyName>Schumaker</usi:FamilyName>
+				<usi:DateOfBirth>1990-08-24</usi:DateOfBirth>
+				<usi:CountryOfBirthCode>1101</usi:CountryOfBirthCode>
+				<usi:TownCityOfBirth>Springfield</usi:TownCityOfBirth>
+				<usi:IsPreferredName>false</usi:IsPreferredName>
+			</usi:PersonalDetails>
+			<usi:DVSDocument xsi:type="usi:BirthCertificateDocumentType">
+				<usi:RegistrationNumber>11111111</usi:RegistrationNumber>
+				<usi:RegistrationState>ACT</usi:RegistrationState>
+				<usi:RegistrationDate>2001-10-25</usi:RegistrationDate>
+				<usi:DatePrinted>1991-05-20</usi:DatePrinted>
+				<usi:CertificateNumber>811767</usi:CertificateNumber>
+			</usi:DVSDocument>
+		</usi:Application>
+		<usi:Application>
+			<usi:ApplicationId>2</usi:ApplicationId>
+			<usi:DVSCheckRequired>true</usi:DVSCheckRequired>
+			<usi:UserReference/>
+			<usi:ContactDetails>
+				<usi:CountryOfResidenceCode>1101</usi:CountryOfResidenceCode>
+				<usi:EmailAddress>freddy+76308345@tes.com</usi:EmailAddress>
+				<usi:Phone>
+					<usi:Home>0255555555</usi:Home>
+					<usi:Mobile>0412341234</usi:Mobile>
+				</usi:Phone>
+				<usi:NationalAddress>
+					<usi:Address1>3515 Mickey St</usi:Address1>
+					<usi:SuburbTownCity>WHITE ROCK</usi:SuburbTownCity>
+					<usi:State>QLD</usi:State>
+					<usi:PostCode>4306</usi:PostCode>
+				</usi:NationalAddress>
+			</usi:ContactDetails>
+			<usi:PersonalDetails>
+				<usi:Gender>F</usi:Gender>
+				<usi:FirstName>Gearldine</usi:FirstName>
+				<usi:MiddleName>Armaan</usi:MiddleName>
+				<usi:FamilyName>Tuulola</usi:FamilyName>
+				<usi:DateOfBirth>1970-03-18</usi:DateOfBirth>
+				<usi:CountryOfBirthCode>1101</usi:CountryOfBirthCode>
+				<usi:TownCityOfBirth>Springfield</usi:TownCityOfBirth>
+				<usi:IsPreferredName>false</usi:IsPreferredName>
+			</usi:PersonalDetails>
+			<usi:DVSDocument xsi:type="usi:CertificateOfRegistrationByDescentDocumentType">
+				<usi:AcquisitionDate>2013-01-01</usi:AcquisitionDate>
+			</usi:DVSDocument>
+		</usi:Application>
+		<usi:Application>
+			<usi:ApplicationId>3</usi:ApplicationId>
+			<usi:DVSCheckRequired>true</usi:DVSCheckRequired>
+			<usi:UserReference/>
+			<usi:ContactDetails>
+				<usi:CountryOfResidenceCode>1101</usi:CountryOfResidenceCode>
+				<usi:EmailAddress>freddy+65654154@tes.com</usi:EmailAddress>
+				<usi:Phone>
+					<usi:Home>0255555555</usi:Home>
+					<usi:Mobile>0412341234</usi:Mobile>
+				</usi:Phone>
+				<usi:NationalAddress>
+					<usi:Address1>Hillard Tower</usi:Address1>
+					<usi:Address2>7577 Hawkins St</usi:Address2>
+					<usi:SuburbTownCity>TALAROO</usi:SuburbTownCity>
+					<usi:State>QLD</usi:State>
+					<usi:PostCode>4871</usi:PostCode>
+				</usi:NationalAddress>
+			</usi:ContactDetails>
+			<usi:PersonalDetails>
+				<usi:Gender>F</usi:Gender>
+				<usi:FirstName>Britanus</usi:FirstName>
+				<usi:MiddleName>Annett</usi:MiddleName>
+				<usi:FamilyName>Pippin</usi:FamilyName>
+				<usi:DateOfBirth>1972-07-30</usi:DateOfBirth>
+				<usi:CountryOfBirthCode>1101</usi:CountryOfBirthCode>
+				<usi:TownCityOfBirth>Springfield</usi:TownCityOfBirth>
+				<usi:IsPreferredName>false</usi:IsPreferredName>
+			</usi:PersonalDetails>
+			<usi:DVSDocument xsi:type="usi:CitizenshipCertificateDocumentType">
+				<usi:StockNumber>ACC111111</usi:StockNumber>
+				<usi:AcquisitionDate>1988-05-30</usi:AcquisitionDate>
+			</usi:DVSDocument>
+		</usi:Application>
+		<usi:Application>
+			<usi:ApplicationId>4</usi:ApplicationId>
+			<usi:DVSCheckRequired>true</usi:DVSCheckRequired>
+			<usi:UserReference/>
+			<usi:ContactDetails>
+				<usi:CountryOfResidenceCode>1101</usi:CountryOfResidenceCode>
+				<usi:EmailAddress>freddy+54474046@tes.com</usi:EmailAddress>
+				<usi:Phone>
+					<usi:Home>0255555555</usi:Home>
+					<usi:Mobile>0412341234</usi:Mobile>
+				</usi:Phone>
+				<usi:NationalAddress>
+					<usi:Address1>Thy Tower</usi:Address1>
+					<usi:Address2>6496 Kampen St</usi:Address2>
+					<usi:SuburbTownCity>EAST BRANXTON</usi:SuburbTownCity>
+					<usi:State>NSW</usi:State>
+					<usi:PostCode>2335</usi:PostCode>
+				</usi:NationalAddress>
+			</usi:ContactDetails>
+			<usi:PersonalDetails>
+				<usi:Gender>X</usi:Gender>
+				<usi:FirstName>Havard</usi:FirstName>
+				<usi:MiddleName>Ivos</usi:MiddleName>
+				<usi:FamilyName>Ishmael</usi:FamilyName>
+				<usi:DateOfBirth>1991-12-25</usi:DateOfBirth>
+				<usi:CountryOfBirthCode>1101</usi:CountryOfBirthCode>
+				<usi:TownCityOfBirth>Springfield</usi:TownCityOfBirth>
+				<usi:IsPreferredName>false</usi:IsPreferredName>
+			</usi:PersonalDetails>
+			<usi:DVSDocument xsi:type="usi:DriversLicenceDocumentType">
+				<usi:LicenceNumber>111111</usi:LicenceNumber>
+				<usi:State>ACT</usi:State>
+				<usi:CardNumber>A001234567</usi:CardNumber>
+			</usi:DVSDocument>
+		</usi:Application>
+		<usi:Application>
+			<usi:ApplicationId>5</usi:ApplicationId>
+			<usi:DVSCheckRequired>true</usi:DVSCheckRequired>
+			<usi:UserReference/>
+			<usi:ContactDetails>
+				<usi:CountryOfResidenceCode>1101</usi:CountryOfResidenceCode>
+				<usi:EmailAddress>freddy+82609295@tes.com</usi:EmailAddress>
+				<usi:Phone>
+					<usi:Home>0255555555</usi:Home>
+					<usi:Mobile>0412341234</usi:Mobile>
+				</usi:Phone>
+				<usi:NationalAddress>
+					<usi:Address1>3850 Skaug St</usi:Address1>
+					<usi:SuburbTownCity>WALMER</usi:SuburbTownCity>
+					<usi:State>VIC</usi:State>
+					<usi:PostCode>3463</usi:PostCode>
+				</usi:NationalAddress>
+			</usi:ContactDetails>
+			<usi:PersonalDetails>
+				<usi:Gender>F</usi:Gender>
+				<usi:FirstName>Imperio</usi:FirstName>
+				<usi:MiddleName>Cristina</usi:MiddleName>
+				<usi:FamilyName>Vloedgraven</usi:FamilyName>
+				<usi:DateOfBirth>1996-03-24</usi:DateOfBirth>
+				<usi:CountryOfBirthCode>1101</usi:CountryOfBirthCode>
+				<usi:TownCityOfBirth>Springfield</usi:TownCityOfBirth>
+				<usi:IsPreferredName>false</usi:IsPreferredName>
+			</usi:PersonalDetails>
+			<usi:DVSDocument xsi:type="usi:MedicareDocumentType">
+				<usi:MedicareCardNumber>1111111111</usi:MedicareCardNumber>
+				<usi:IndividualRefNumber>1</usi:IndividualRefNumber>
+				<usi:ExpiryDate>2023-04</usi:ExpiryDate>
+				<usi:CardColour>Green</usi:CardColour>
+				<usi:NameLine1>Imperio Cristina Vloedgrave</usi:NameLine1>
+				<usi:NameLine2>n</usi:NameLine2>
+			</usi:DVSDocument>
+		</usi:Application>
+		<usi:Application>
+			<usi:ApplicationId>6</usi:ApplicationId>
+			<usi:DVSCheckRequired>true</usi:DVSCheckRequired>
+			<usi:UserReference/>
+			<usi:ContactDetails>
+				<usi:CountryOfResidenceCode>1101</usi:CountryOfResidenceCode>
+				<usi:EmailAddress>freddy+19395299@tes.com</usi:EmailAddress>
+				<usi:Phone>
+					<usi:Home>0255555555</usi:Home>
+					<usi:Mobile>0412341234</usi:Mobile>
+				</usi:Phone>
+				<usi:NationalAddress>
+					<usi:Address1>Hogarth Tower</usi:Address1>
+					<usi:Address2>5781 Paivinen St</usi:Address2>
+					<usi:SuburbTownCity>IRVINGDALE</usi:SuburbTownCity>
+					<usi:State>QLD</usi:State>
+					<usi:PostCode>4404</usi:PostCode>
+				</usi:NationalAddress>
+			</usi:ContactDetails>
+			<usi:PersonalDetails>
+				<usi:Gender>X</usi:Gender>
+				<usi:FirstName>Lola</usi:FirstName>
+				<usi:MiddleName>Gerald</usi:MiddleName>
+				<usi:FamilyName>Gruenewald</usi:FamilyName>
+				<usi:DateOfBirth>1977-03-30</usi:DateOfBirth>
+				<usi:CountryOfBirthCode>1101</usi:CountryOfBirthCode>
+				<usi:TownCityOfBirth>Springfield</usi:TownCityOfBirth>
+				<usi:IsPreferredName>false</usi:IsPreferredName>
+			</usi:PersonalDetails>
+			<usi:DVSDocument xsi:type="usi:PassportDocumentType">
+				<usi:DocumentNumber>X1111111</usi:DocumentNumber>
+			</usi:DVSDocument>
+		</usi:Application>
+		<usi:Application>
+			<usi:ApplicationId>7</usi:ApplicationId>
+			<usi:DVSCheckRequired>true</usi:DVSCheckRequired>
+			<usi:UserReference/>
+			<usi:ContactDetails>
+				<usi:CountryOfResidenceCode>1101</usi:CountryOfResidenceCode>
+				<usi:EmailAddress>freddy+73375590@tes.com</usi:EmailAddress>
+				<usi:Phone>
+					<usi:Home>0255555555</usi:Home>
+					<usi:Mobile>0412341234</usi:Mobile>
+				</usi:Phone>
+				<usi:NationalAddress>
+					<usi:Address1>Jaaskelainen Tower</usi:Address1>
+					<usi:Address2>3592 Koepke St</usi:Address2>
+					<usi:SuburbTownCity>EAST ALBURY</usi:SuburbTownCity>
+					<usi:State>NSW</usi:State>
+					<usi:PostCode>2640</usi:PostCode>
+				</usi:NationalAddress>
+			</usi:ContactDetails>
+			<usi:PersonalDetails>
+				<usi:Gender>F</usi:Gender>
+				<usi:FirstName>Kody</usi:FirstName>
+				<usi:MiddleName>Jazmin</usi:MiddleName>
+				<usi:FamilyName>Klocova</usi:FamilyName>
+				<usi:DateOfBirth>1977-12-21</usi:DateOfBirth>
+				<usi:CountryOfBirthCode>1101</usi:CountryOfBirthCode>
+				<usi:TownCityOfBirth>Springfield</usi:TownCityOfBirth>
+				<usi:IsPreferredName>false</usi:IsPreferredName>
+			</usi:PersonalDetails>
+			<usi:DVSDocument xsi:type="usi:VisaDocumentType">
+				<usi:PassportNumber>111111</usi:PassportNumber>
+			</usi:DVSDocument>
+		</usi:Application>
+		<usi:Application>
+			<usi:ApplicationId>8</usi:ApplicationId>
+			<usi:DVSCheckRequired>true</usi:DVSCheckRequired>
+			<usi:UserReference/>
+			<usi:ContactDetails>
+				<usi:CountryOfResidenceCode>1101</usi:CountryOfResidenceCode>
+				<usi:EmailAddress>freddy+39355950@tes.com</usi:EmailAddress>
+				<usi:Phone>
+					<usi:Home>0255555555</usi:Home>
+					<usi:Mobile>0412341234</usi:Mobile>
+				</usi:Phone>
+				<usi:NationalAddress>
+					<usi:Address1>Weingarth Tower</usi:Address1>
+					<usi:Address2>4727 Majer St</usi:Address2>
+					<usi:SuburbTownCity>BALKULING</usi:SuburbTownCity>
+					<usi:State>WA</usi:State>
+					<usi:PostCode>6383</usi:PostCode>
+				</usi:NationalAddress>
+			</usi:ContactDetails>
+			<usi:PersonalDetails>
+				<usi:Gender>F</usi:Gender>
+				<usi:FirstName>Shanon</usi:FirstName>
+				<usi:MiddleName>Griffo</usi:MiddleName>
+				<usi:FamilyName>Guyette</usi:FamilyName>
+				<usi:DateOfBirth>1976-11-10</usi:DateOfBirth>
+				<usi:CountryOfBirthCode>1101</usi:CountryOfBirthCode>
+				<usi:TownCityOfBirth>Springfield</usi:TownCityOfBirth>
+				<usi:IsPreferredName>false</usi:IsPreferredName>
+			</usi:PersonalDetails>
+			<usi:DVSDocument xsi:type="usi:ImmiCardDocumentType">
+				<usi:ImmiCardNumber>ABC111111</usi:ImmiCardNumber>
+			</usi:DVSDocument>
+		</usi:Application>
+		<usi:Application>
+			<usi:ApplicationId>9</usi:ApplicationId>
+			<usi:DVSCheckRequired>true</usi:DVSCheckRequired>
+			<usi:UserReference/>
+			<usi:ContactDetails>
+				<usi:CountryOfResidenceCode>1101</usi:CountryOfResidenceCode>
+				<usi:EmailAddress>freddy+24896365@tes.com</usi:EmailAddress>
+				<usi:Phone>
+					<usi:Home>0255555555</usi:Home>
+					<usi:Mobile>0412341234</usi:Mobile>
+				</usi:Phone>
+				<usi:NationalAddress>
+					<usi:Address1>7200 Shea St</usi:Address1>
+					<usi:SuburbTownCity>HAWLEY BEACH</usi:SuburbTownCity>
+					<usi:State>TAS</usi:State>
+					<usi:PostCode>7307</usi:PostCode>
+				</usi:NationalAddress>
+			</usi:ContactDetails>
+			<usi:PersonalDetails>
+				<usi:Gender>X</usi:Gender>
+				<usi:FirstName>Hamfast</usi:FirstName>
+				<usi:MiddleName>Simona Marija</usi:MiddleName>
+				<usi:FamilyName>Hauta-aho</usi:FamilyName>
+				<usi:DateOfBirth>1994-03-30</usi:DateOfBirth>
+				<usi:CountryOfBirthCode>1101</usi:CountryOfBirthCode>
+				<usi:TownCityOfBirth>Springfield</usi:TownCityOfBirth>
+				<usi:IsPreferredName>false</usi:IsPreferredName>
+			</usi:PersonalDetails>
+			<usi:DVSDocument xsi:type="usi:CentrelinkCardType">
+				<usi:CRN>111111111X</usi:CRN>
+				<usi:Name>Hamfast Simona Marija Hauta-aho</usi:Name>
+				<usi:ExpiryDate>2024-06-15</usi:ExpiryDate>
+				<usi:Type>SHC</usi:Type>
+			</usi:DVSDocument>
+		</usi:Application>
+		<usi:Application>
+			<usi:ApplicationId>10</usi:ApplicationId>
+			<usi:DVSCheckRequired>false</usi:DVSCheckRequired>
+			<usi:UserReference/>
+			<usi:ContactDetails>
+				<usi:CountryOfResidenceCode>1101</usi:CountryOfResidenceCode>
+				<usi:EmailAddress>freddy+21286270@tes.com</usi:EmailAddress>
+				<usi:Phone>
+					<usi:Home>0255555555</usi:Home>
+					<usi:Mobile>0412341234</usi:Mobile>
+				</usi:Phone>
+				<usi:NationalAddress>
+					<usi:Address1>Tubbs Tower</usi:Address1>
+					<usi:Address2>8665 Niskavaara St</usi:Address2>
+					<usi:SuburbTownCity>MOUNT SHERIDAN</usi:SuburbTownCity>
+					<usi:State>QLD</usi:State>
+					<usi:PostCode>4868</usi:PostCode>
+				</usi:NationalAddress>
+			</usi:ContactDetails>
+			<usi:PersonalDetails>
+				<usi:Gender>M</usi:Gender>
+				<usi:FirstName>Larry</usi:FirstName>
+				<usi:MiddleName>Jermine</usi:MiddleName>
+				<usi:FamilyName>Ocasio</usi:FamilyName>
+				<usi:DateOfBirth>1970-01-04</usi:DateOfBirth>
+				<usi:CountryOfBirthCode>1101</usi:CountryOfBirthCode>
+				<usi:TownCityOfBirth>Springfield</usi:TownCityOfBirth>
+				<usi:IsPreferredName>false</usi:IsPreferredName>
+			</usi:PersonalDetails>
+			<usi:NonDvsDocumentTypeId>5</usi:NonDvsDocumentTypeId>
+		</usi:Application>
+	</usi:Applications>
+</usi:BulkUpload>

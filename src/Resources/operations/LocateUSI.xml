@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usi:LocateUSI xmlns:usi="http://usi.gov.au/2022/ws" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<usi:OrgCode/>
+	<usi:UserReference/>
+	<usi:PersonalDetails>
+		<usi:Gender>M</usi:Gender>
+		<usi:SingleName>SingleName</usi:SingleName>
+		<usi:FirstName>FirstName</usi:FirstName>
+		<usi:MiddleName>MiddleName</usi:MiddleName>
+		<usi:FamilyName>Name</usi:FamilyName>
+		<usi:DateOfBirth>0004-01-01</usi:DateOfBirth>
+		<usi:TownCityOfBirth>Town</usi:TownCityOfBirth>
+	</usi:PersonalDetails>
+	<usi:ContactDetails>
+		<usi:EmailAddress>email@address.com</usi:EmailAddress>
+		<usi:Phone>
+			<usi:Mobile>0412345678</usi:Mobile>
+		</usi:Phone>
+	</usi:ContactDetails>
+</usi:LocateUSI>

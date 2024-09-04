@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usi:UpdateUSIPersonalDetails xmlns:usi="http://usi.gov.au/2022/ws" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<usi:OrgCode/>
+	<usi:USI/>
+	<usi:DVSCheckRequired>true</usi:DVSCheckRequired>
+	<usi:UserReference/>
+	<usi:PersonalDetailsModifier>FirstName</usi:PersonalDetailsModifier>
+	<usi:PersonalDetailsUpdate>
+		<usi:Gender>M</usi:Gender>
+		<usi:SingleName>SingleName</usi:SingleName>
+		<usi:FirstName>FirstName</usi:FirstName>
+		<usi:MiddleName>MiddleName</usi:MiddleName>
+		<usi:FamilyName>FamilyName</usi:FamilyName>
+		<usi:PreferredFirstName>PreferredFirstName</usi:PreferredFirstName>
+		<usi:PreferredFamilyName>PreferredFamilyName</usi:PreferredFamilyName>
+		<usi:PreferredSingleName>PreferredName</usi:PreferredSingleName>
+		<usi:CountryOfBirthCode>Country</usi:CountryOfBirthCode>
+		<usi:TownCityOfBirth>Town</usi:TownCityOfBirth>
+	</usi:PersonalDetailsUpdate>
+	<usi:DVSDocument xsi:type="usi:BirthCertificateDocumentType">
+		<usi:RegistrationNumber>11111111</usi:RegistrationNumber>
+		<usi:RegistrationState>ACT</usi:RegistrationState>
+		<usi:RegistrationDate>2016-01-30</usi:RegistrationDate>
+		<usi:DatePrinted>2002-12-18</usi:DatePrinted>
+		<usi:CertificateNumber>565414</usi:CertificateNumber>
+	</usi:DVSDocument>
+</usi:UpdateUSIPersonalDetails>

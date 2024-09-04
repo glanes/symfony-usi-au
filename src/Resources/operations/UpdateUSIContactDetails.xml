@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usi:UpdateUSIContactDetails xmlns:usi="http://usi.gov.au/2022/ws" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<usi:OrgCode/>
+	<usi:USI/>
+	<usi:UserReference/>
+	<usi:ContactDetailsUpdate>
+		<usi:CountryOfResidenceCode>0001</usi:CountryOfResidenceCode>
+		<usi:EmailAddress>email@address.com</usi:EmailAddress>
+		<usi:Phone>
+			<usi:Home>61234567</usi:Home>
+			<usi:Mobile>0412345678</usi:Mobile>
+		</usi:Phone>
+		<usi:NationalAddress>
+			<usi:Address1>Address Line 1</usi:Address1>
+			<usi:Address2>Address Line 2</usi:Address2>
+			<usi:SuburbTownCity>Town</usi:SuburbTownCity>
+			<usi:State>ACT</usi:State>
+			<usi:PostCode>2600</usi:PostCode>
+		</usi:NationalAddress>
+		<usi:InternationalAddress>International
+Address</usi:InternationalAddress>
+	</usi:ContactDetailsUpdate>
+</usi:UpdateUSIContactDetails>
