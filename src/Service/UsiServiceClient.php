@@ -35,7 +35,7 @@ class UsiServiceClient extends BaseServiceClient
         [$stsRequest, $stsResponse] = $this->stsServiceClient->issue();
         [, $stsResponseXPath] = parent::getDomXPath($stsResponse);
 
-        $xml = file_get_contents(sprintf("%s/src/Resources/templates/usi-request-template.xml", $this->Configuration->ProjectDir));
+        $xml = file_get_contents(sprintf("%s/../Resources/templates/usi-request-template.xml", __DIR__));
         [$usiRequestDocument, $usiRequestXPath] = parent::getDomXPath($xml);
 
         // header

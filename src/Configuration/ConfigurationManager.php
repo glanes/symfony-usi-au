@@ -4,6 +4,7 @@ namespace Glanes\UsiBundle\Configuration;
 use DOMDocument;
 use DOMXPath;
 use DateTime;
+use Exception;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 use Symfony\Component\HttpKernel\KernelInterface;
 
@@ -40,16 +41,24 @@ class ConfigurationManager
         if (isset($this->Configurations)) {
             return;
         }
+
+
 		$baseDirectory = sprintf("%s/config/packages/usi", $this->appKernel->getProjectDir());
-        $this->Configurations = new ConfigurationCollection();
-        $counter = 0;
-        $environmentPaths = glob(sprintf("%s/*", $baseDirectory), GLOB_ONLYDIR);
-        foreach ($environmentPaths as $environmentPath) {
-            preg_match("/[^\/]+$/", $environmentPath, $environment);
-            [$environmentDomXPath, $keyStoreDomXPath] = $this->getEnvironmentDomXPath($environmentPath);
-            $this->Configurations[$counter] = $this->getEnvironment($environment[0], $environmentDomXPath, $keyStoreDomXPath);
-            $counter++;
-        }
+		try {
+			fopen($baseDirectory, "r");
+			$this->Configurations = new ConfigurationCollection();
+			$counter = 0;
+			$environmentPaths = glob(sprintf("%s/*", $baseDirectory), GLOB_ONLYDIR);
+			foreach ($environmentPaths as $environmentPath) {
+				preg_match("/[^\/]+$/", $environmentPath, $environment);
+				[$environmentDomXPath, $keyStoreDomXPath] = $this->getEnvironmentDomXPath($environmentPath);
+				$this->Configurations[$counter] = $this->getEnvironment($environment[0], $environmentDomXPath, $keyStoreDomXPath);
+				$counter++;
+			}
+		} catch (\Exception $e) {
+			throw new \Exception(\sprintf('Config packages not found in "%s"', $baseDirectory));
+		}
+
     }
 
     private function getEnvironment(string $environment, DomXPath $environmentDomXPath, DomXPath $keyStoreDomXPath): Configuration

@@ -17,7 +17,7 @@ class StsServiceClient extends BaseServiceClient
     public function issue(): array
     {
         // build request
-        $xml = file_get_contents(sprintf("%s/src/Resources/templates/sts-request-template.xml", $this->Configuration->ProjectDir));
+        $xml = file_get_contents(sprintf("%s/../Resources/templates/sts-request-template.xml", __DIR__));
         [$requestDocument, $requestXPath] = parent::getDomXPath($xml);
 
         // header

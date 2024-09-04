@@ -33,8 +33,8 @@ class UsiClient extends UsiServiceClient
 		$this->family = $family;
 		$this->dob = $dob;
 
-		$xml = file_get_contents(sprintf("%s/src/Resources/operations/verifyUSI.xml", $this->configuration->ProjectDir));
 
+		$xml = file_get_contents(sprintf("%s/../Resources/operations/verifyUSI.xml", __DIR__));
 		$document = new DOMDocument();
 		$document->loadXML($xml);
 
