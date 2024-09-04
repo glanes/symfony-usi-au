@@ -4,10 +4,6 @@ namespace Glanes\UsiBundle\Configuration;
 use DOMDocument;
 use DOMXPath;
 use DateTime;
-use App\Configuration\ConfigurationCollection;
-use App\Configuration\Configuration;
-use App\Configuration\OrgKeyData;
-use App\Configuration\OrgKeyDataCollection;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 use Symfony\Component\HttpKernel\KernelInterface;
 

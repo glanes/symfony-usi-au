@@ -36,12 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+		  	"App\\": "src/",
+            "Glanes\\UsiBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "tests/"
+            "Glanes\\UsiBundle\\Tests\\": "tests/"
         }
     },
     "replace": {

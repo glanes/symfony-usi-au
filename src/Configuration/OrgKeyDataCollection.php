@@ -7,7 +7,6 @@ use Countable;
 use Traversable;
 use TypeError;
 use ArrayIterator;
-use UsiBundle\Configuration\OrgKeyData;
 
 class OrgKeyDataCollection implements ArrayAccess, IteratorAggregate, Countable
 {

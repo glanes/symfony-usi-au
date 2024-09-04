@@ -2,5 +2,5 @@
 
 return [
     Symfony\Bundle\FrameworkBundle\FrameworkBundle::class => ['all' => true],
-	App\UsiBundle::class => ['all' => true],
+	Glanes\UsiBundle\GlanesUsiBundle::class => ['all' => true],
 ];

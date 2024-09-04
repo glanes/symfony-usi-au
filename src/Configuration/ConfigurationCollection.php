@@ -7,7 +7,6 @@ use Countable;
 use Traversable;
 use TypeError;
 use ArrayIterator;
-use App\Configuration\Configuration;
 
 class ConfigurationCollection implements ArrayAccess, IteratorAggregate, Countable
 {

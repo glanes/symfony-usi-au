@@ -2,9 +2,9 @@
 
 namespace Glanes\UsiBundle;
 
-use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
+use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class GlanesUsiBundle extends AbstractBundle
+class GlanesUsiBundle extends Bundle
 {
 	public function getPath(): string
 	{
