@@ -14,7 +14,7 @@
 		"email": "giselealanes@gmail.com"
 	  }
 	],
-  	"minimum-stability": "stable",
+  	"minimum-stability": "dev",
     "require": {
         "php": ">=8.0",
         "ext-ctype": "*",
@@ -76,5 +76,6 @@
             "allow-contrib": "true",
             "require": "7.0.*"
         }
-    }
+    },
+	"prefer-stable": true
 }
