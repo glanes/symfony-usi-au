@@ -34,7 +34,7 @@ class UsiClient extends UsiServiceClient
 		$this->dob = $dob;
 
 
-		$xml = file_get_contents(sprintf("%s/../Resources/operations/verifyUSI.xml", __DIR__));
+		$xml = file_get_contents(sprintf("%s/../Resources/operations/VerifyUSI.xml", __DIR__));
 		$document = new DOMDocument();
 		$document->loadXML($xml);
 
