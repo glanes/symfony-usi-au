@@ -68,6 +68,52 @@ class UsiClient extends UsiServiceClient
 			return $output;
 		}
 	}
+
+	public function locateUSI($orgCode, $gender, $first, $family, $dob)
+	{
+
+		/* The original version had this in the constructor */
+		$this->orgCode = $orgCode;
+		$this->gender = $gender;
+		$this->first = $first;
+		$this->family = $family;
+		$this->dob = $dob;
+
+		$xml = file_get_contents(sprintf("%s/src/Resources/operations/LocateUSI.xml", $this->configuration->ProjectDir));
+
+		$document = new DOMDocument();
+		$document->loadXML($xml);
+
+		$document->getElementsByTagName('OrgCode')->item(0)->nodeValue = $this->orgCode;
+		$document->getElementsByTagName('Gender')->item(0)->nodeValue = $this->gender;
+		$document->getElementsByTagName('FirstName')->item(0)->nodeValue = $this->first;
+		$document->getElementsByTagName('FamilyName')->item(0)->nodeValue =$this->family;
+		$document->getElementsByTagName('DateOfBirth')->item(0)->nodeValue = $this->dob;
+
+		$usiServiceClient = new UsiServiceClient($this->configuration, $this->orgKeyData);
+		$response = $usiServiceClient->invoke(sprintf("http://usi.gov.au/2022/ws/%s", "LocateUSI"), $document->saveXML());
+
+		$xml = new SimpleXMLElement($rawResponse = end($response));
+		$xml->registerXPathNamespace("ws", "http://usi.gov.au/2022/ws");
+
+
+		$response = $xml->xpath("//ws:LocateUSIResponse");
+		if (count($response)>0) {
+
+			$response = $response[0];
+			/* Convert result into an array instead of simpleXMLElement */
+			$output = array();
+			foreach ($response as $name => $value) {
+				$output[$name] = "$value";
+			}
+			return $output;
+		} else {
+			//* We have a failure
+			$output = array();
+			$output['_error'] = $rawResponse;
+			return $output;
+		}
+	}
 }
 
 

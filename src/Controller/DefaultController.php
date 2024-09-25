@@ -11,12 +11,15 @@ use Symfony\Component\Routing\Attribute\Route;
 class DefaultController extends AbstractController
 {
 	private $configurator;
-	public function __construct(ConfigurationManager $configurator) {
+
+	public function __construct(ConfigurationManager $configurator)
+	{
 		$this->configurator = $configurator;
 	}
 
-	#[Route(path: '/verify-usi', name: 'verify')]
-	public function verifyUsi() {
+	#[Route(path: '/verify-usi', name: 'verify-symfony-usi-au')]
+	public function verifyUsi()
+	{
 
 		$configuration = $this->configurator->getConfiguration("prod");
 		$organization = $configuration->getOrgKeyData($configuration->DefaultOrgCode);
@@ -29,6 +32,16 @@ class DefaultController extends AbstractController
 		dd($verifyUsi);
 
 
-    }
+	}
 
+	#[Route(path: '/locate-usi', name: 'locate-symfony-usi-au')]
+	public function locateUsi()
+	{
+		$configuration = $this->configurator->getConfiguration("prod");
+		$organization = $configuration->getOrgKeyData($configuration->DefaultOrgCode);
+
+		$usiClient = new UsiClient($configuration, $organization);
+		$locateUsi = $usiClient->locateUSI("31254", "F", "NIKITA", "MCDONALD", "1995-05-12");
+		dd($locateUsi);
+	}
 }
